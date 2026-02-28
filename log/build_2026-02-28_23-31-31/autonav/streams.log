@@ -1,0 +1,17 @@
+[0.415s] Invoking command in '/home/fuga1129/autonav_ws/build/autonav': PYTHONPATH=/home/fuga1129/autonav_ws/build/autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/autonav_ws/build/autonav/build --no-deps symlink_data
+[0.587s] running develop
+[0.698s] running egg_info
+[0.698s] writing autonav.egg-info/PKG-INFO
+[0.698s] writing dependency_links to autonav.egg-info/dependency_links.txt
+[0.698s] writing entry points to autonav.egg-info/entry_points.txt
+[0.698s] writing requirements to autonav.egg-info/requires.txt
+[0.698s] writing top-level names to autonav.egg-info/top_level.txt
+[0.699s] reading manifest file 'autonav.egg-info/SOURCES.txt'
+[0.700s] writing manifest file 'autonav.egg-info/SOURCES.txt'
+[0.701s] running build_ext
+[0.701s] Creating /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav.egg-link (link to .)
+[0.701s] 
+[0.702s] Installed /home/fuga1129/autonav_ws/build/autonav
+[0.702s] running symlink_data
+[0.702s] symbolically linking /home/fuga1129/autonav_ws/build/autonav/launch/launch_sim.launch.py -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/launch
+[0.723s] Invoked command in '/home/fuga1129/autonav_ws/build/autonav' returned '0': PYTHONPATH=/home/fuga1129/autonav_ws/build/autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/autonav_ws/build/autonav/build --no-deps symlink_data

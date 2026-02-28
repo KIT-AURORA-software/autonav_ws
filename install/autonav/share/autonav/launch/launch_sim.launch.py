@@ -1,0 +1,1 @@
+/home/fuga1129/autonav_ws/build/autonav/launch/launch_sim.launch.py

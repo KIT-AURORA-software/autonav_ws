@@ -1,0 +1,25 @@
+[0.412s] Invoking command in '/home/fuga1129/autonav_ws/build/autonav': PYTHONPATH=/home/fuga1129/autonav_ws/build/autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/autonav_ws/build/autonav/build --no-deps symlink_data
+[0.575s] running develop
+[0.666s] running egg_info
+[0.666s] writing autonav.egg-info/PKG-INFO
+[0.666s] writing dependency_links to autonav.egg-info/dependency_links.txt
+[0.666s] writing entry points to autonav.egg-info/entry_points.txt
+[0.666s] writing requirements to autonav.egg-info/requires.txt
+[0.666s] writing top-level names to autonav.egg-info/top_level.txt
+[0.667s] reading manifest file 'autonav.egg-info/SOURCES.txt'
+[0.667s] writing manifest file 'autonav.egg-info/SOURCES.txt'
+[0.668s] running build_ext
+[0.668s] Creating /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav.egg-link (link to .)
+[0.669s] 
+[0.669s] Installed /home/fuga1129/autonav_ws/build/autonav
+[0.669s] running symlink_data
+[0.669s] symbolically linking /home/fuga1129/autonav_ws/build/autonav/resource/autonav -> /home/fuga1129/autonav_ws/install/autonav/share/ament_index/resource_index/packages
+[0.669s] symbolically linking /home/fuga1129/autonav_ws/build/autonav/package.xml -> /home/fuga1129/autonav_ws/install/autonav/share/autonav
+[0.669s] creating /home/fuga1129/autonav_ws/install/autonav/share/autonav/launch
+[0.669s] symbolically linking /home/fuga1129/autonav_ws/build/autonav/launch/rsp.launch.py -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/launch
+[0.670s] creating /home/fuga1129/autonav_ws/install/autonav/share/autonav/config
+[0.670s] creating /home/fuga1129/autonav_ws/install/autonav/share/autonav/description
+[0.670s] symbolically linking /home/fuga1129/autonav_ws/build/autonav/description/rocot.urdf.xacro -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/description
+[0.670s] symbolically linking /home/fuga1129/autonav_ws/build/autonav/description/robot_core.xacro -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/description
+[0.670s] creating /home/fuga1129/autonav_ws/install/autonav/share/autonav/rviz
+[0.688s] Invoked command in '/home/fuga1129/autonav_ws/build/autonav' returned '0': PYTHONPATH=/home/fuga1129/autonav_ws/build/autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/autonav_ws/build/autonav/build --no-deps symlink_data

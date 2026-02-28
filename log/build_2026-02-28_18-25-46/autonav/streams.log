@@ -1,0 +1,17 @@
+[0.386s] Invoking command in '/home/fuga1129/autonav_ws/build/autonav': PYTHONPATH=/home/fuga1129/autonav_ws/build/autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/autonav_ws/build/autonav/build --no-deps symlink_data
+[0.545s] running develop
+[0.634s] running egg_info
+[0.634s] writing autonav.egg-info/PKG-INFO
+[0.634s] writing dependency_links to autonav.egg-info/dependency_links.txt
+[0.634s] writing entry points to autonav.egg-info/entry_points.txt
+[0.634s] writing requirements to autonav.egg-info/requires.txt
+[0.634s] writing top-level names to autonav.egg-info/top_level.txt
+[0.635s] reading manifest file 'autonav.egg-info/SOURCES.txt'
+[0.636s] writing manifest file 'autonav.egg-info/SOURCES.txt'
+[0.636s] running build_ext
+[0.637s] Creating /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav.egg-link (link to .)
+[0.637s] 
+[0.637s] Installed /home/fuga1129/autonav_ws/build/autonav
+[0.637s] running symlink_data
+[0.637s] error: can't copy '/home/fuga1129/autonav_ws/build/autonav/resource/autonav': doesn't exist or not a regular file
+[0.657s] Invoked command in '/home/fuga1129/autonav_ws/build/autonav' returned '1': PYTHONPATH=/home/fuga1129/autonav_ws/build/autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/autonav_ws/build/autonav/build --no-deps symlink_data
