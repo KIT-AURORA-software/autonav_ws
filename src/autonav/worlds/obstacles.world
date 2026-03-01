@@ -82,14 +82,21 @@
       <device>default</device>
     </audio>
     <wind/>
-    <spherical_coordinates>
+    <!-- <spherical_coordinates>
       <surface_model>EARTH_WGS84</surface_model>
       <latitude_deg>0</latitude_deg>
       <longitude_deg>0</longitude_deg>
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
+    </spherical_coordinates> -->
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>35.53710</latitude_deg>
+      <longitude_deg>134.21100</longitude_deg>
+      <elevation>0</elevation>
+      <heading_deg>0</heading_deg>
     </spherical_coordinates>
-    <model name='my_bot'>
+    <!-- <model name='my_bot'>
       <link name='base_link'>
         <inertial>
           <pose>0.065 0 0.0625 0 -0 0</pose>
@@ -321,8 +328,8 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
-      </link>
-      <static>0</static>
+      </link> -->
+      <!-- <static>0</static>
       <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
         <left_joint>left_wheel_joint</left_joint>
         <right_joint>right_wheel_joint</right_joint>
@@ -337,7 +344,7 @@
         <publish_wheel_tf>1</publish_wheel_tf>
       </plugin>
       <pose>0 0 0 0 -0 0</pose>
-    </model>
+    </model> -->
     <model name='Construction Barrel'>
       <link name='link'>
         <inertial>

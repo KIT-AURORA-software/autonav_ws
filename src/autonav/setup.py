@@ -31,6 +31,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'nav_gps = autonav.nav_gps:main',
+            'nav_gps_csv = autonav.nav_gps_csv:main',
+            'nav_gps_gate_csv = autonav.nav_gps_gate_csv:main',
         ],
     },
 )

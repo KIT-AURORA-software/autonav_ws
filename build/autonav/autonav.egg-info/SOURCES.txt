@@ -2,6 +2,9 @@ package.xml
 setup.cfg
 setup.py
 autonav/__init__.py
+autonav/nav_gps.py
+autonav/nav_gps_csv.py
+autonav/nav_gps_gate_csv.py
 autonav.egg-info/PKG-INFO
 autonav.egg-info/SOURCES.txt
 autonav.egg-info/dependency_links.txt
@@ -10,6 +13,8 @@ autonav.egg-info/requires.txt
 autonav.egg-info/top_level.txt
 autonav.egg-info/zip-safe
 description/gazebo_control.xacro
+description/gps.xacro
+description/imu.xacro
 description/inertial_macros.xacro
 description/robot_core.xacro
 description/rocot.urdf.xacro
