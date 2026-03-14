@@ -1,0 +1,1 @@
+/home/fuga1129/autonav_ws/build/ros2_aruco_interfaces/ament_cmake_python/ros2_aruco_interfaces/ros2_aruco_interfaces.egg-info/top_level.txt

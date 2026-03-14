@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing autonav.egg-info/PKG-INFO
+writing dependency_links to autonav.egg-info/dependency_links.txt
+writing entry points to autonav.egg-info/entry_points.txt
+writing requirements to autonav.egg-info/requires.txt
+writing top-level names to autonav.egg-info/top_level.txt
+reading manifest file 'autonav.egg-info/SOURCES.txt'
+writing manifest file 'autonav.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav.egg-link (link to .)
+Installing nav_gps script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+Installing nav_gps_csv script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+Installing nav_gps_gate_csv script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+
+Installed /home/fuga1129/autonav_ws/build/autonav
+running symlink_data

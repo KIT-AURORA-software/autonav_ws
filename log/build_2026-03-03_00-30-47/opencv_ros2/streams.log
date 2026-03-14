@@ -1,0 +1,66 @@
+[1.402s] Invoking command in '/home/fuga1129/autonav_ws/build/opencv_ros2': PYTHONPATH=/home/fuga1129/autonav_ws/build/opencv_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/fuga1129/autonav_ws/build/opencv_ros2/build
+[1.632s] running develop
+[1.776s] Removing /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv-ros2.egg-link (link to .)
+[1.827s] Invoked command in '/home/fuga1129/autonav_ws/build/opencv_ros2' returned '0': PYTHONPATH=/home/fuga1129/autonav_ws/build/opencv_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/fuga1129/autonav_ws/build/opencv_ros2/build
+[1.829s] Invoking command in '/home/fuga1129/autonav_ws/src/opencv_ros2': PYTHONPATH=/home/fuga1129/autonav_ws/build/opencv_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opencv_ros2 build --build-base /home/fuga1129/autonav_ws/build/opencv_ros2/build install --record /home/fuga1129/autonav_ws/build/opencv_ros2/install.log --single-version-externally-managed install_data --force
+[2.051s] running egg_info
+[2.051s] writing ../../build/opencv_ros2/opencv_ros2.egg-info/PKG-INFO
+[2.052s] writing dependency_links to ../../build/opencv_ros2/opencv_ros2.egg-info/dependency_links.txt
+[2.052s] writing entry points to ../../build/opencv_ros2/opencv_ros2.egg-info/entry_points.txt
+[2.052s] writing requirements to ../../build/opencv_ros2/opencv_ros2.egg-info/requires.txt
+[2.052s] writing top-level names to ../../build/opencv_ros2/opencv_ros2.egg-info/top_level.txt
+[2.054s] reading manifest file '../../build/opencv_ros2/opencv_ros2.egg-info/SOURCES.txt'
+[2.055s] adding license file 'LICENSE'
+[2.055s] writing manifest file '../../build/opencv_ros2/opencv_ros2.egg-info/SOURCES.txt'
+[2.055s] running build
+[2.055s] running build_py
+[2.055s] creating /home/fuga1129/autonav_ws/build/opencv_ros2/build
+[2.056s] creating /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib
+[2.056s] creating /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+[2.056s] copying opencv_ros2/__init__.py -> /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+[2.056s] copying opencv_ros2/imgproc_opencv_ros.py -> /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+[2.056s] copying opencv_ros2/face_detection.py -> /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+[2.056s] copying opencv_ros2/imgproc_opencv.py -> /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+[2.056s] copying opencv_ros2/aruco_node_tf_v2.py -> /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+[2.057s] copying opencv_ros2/read_write.py -> /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+[2.057s] copying opencv_ros2/qrcode_detector.py -> /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+[2.057s] copying opencv_ros2/aruco_node_tf.py -> /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+[2.057s] copying opencv_ros2/canny_edge_detection.py -> /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+[2.057s] running install
+[2.057s] running install_lib
+[2.058s] creating /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+[2.058s] copying /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2/__init__.py -> /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+[2.058s] copying /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2/imgproc_opencv_ros.py -> /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+[2.059s] copying /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2/face_detection.py -> /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+[2.059s] copying /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2/imgproc_opencv.py -> /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+[2.059s] copying /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2/aruco_node_tf_v2.py -> /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+[2.059s] copying /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2/read_write.py -> /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+[2.059s] copying /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2/qrcode_detector.py -> /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+[2.059s] copying /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2/aruco_node_tf.py -> /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+[2.059s] copying /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2/canny_edge_detection.py -> /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+[2.059s] byte-compiling /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2/__init__.py to __init__.cpython-310.pyc
+[2.059s] byte-compiling /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2/imgproc_opencv_ros.py to imgproc_opencv_ros.cpython-310.pyc
+[2.060s] byte-compiling /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2/face_detection.py to face_detection.cpython-310.pyc
+[2.060s] byte-compiling /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2/imgproc_opencv.py to imgproc_opencv.cpython-310.pyc
+[2.060s] byte-compiling /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2/aruco_node_tf_v2.py to aruco_node_tf_v2.cpython-310.pyc
+[2.062s] byte-compiling /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2/read_write.py to read_write.cpython-310.pyc
+[2.062s] byte-compiling /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2/qrcode_detector.py to qrcode_detector.cpython-310.pyc
+[2.062s] byte-compiling /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2/aruco_node_tf.py to aruco_node_tf.cpython-310.pyc
+[2.063s] byte-compiling /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2/canny_edge_detection.py to canny_edge_detection.cpython-310.pyc
+[2.063s] running install_data
+[2.063s] copying resource/opencv_ros2 -> /home/fuga1129/autonav_ws/install/opencv_ros2/share/ament_index/resource_index/packages
+[2.064s] copying package.xml -> /home/fuga1129/autonav_ws/install/opencv_ros2/share/opencv_ros2
+[2.064s] running install_egg_info
+[2.066s] Copying ../../build/opencv_ros2/opencv_ros2.egg-info to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2-2.0.0-py3.10.egg-info
+[2.066s] running install_scripts
+[2.086s] Installing aruco_node_tf script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+[2.086s] Installing aruco_node_tf_v2 script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+[2.087s] Installing canny_edge_detection script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+[2.087s] Installing challenge5_1_say_hello script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+[2.087s] Installing challenge5_2_cup_direction script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+[2.087s] Installing face_detection script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+[2.087s] Installing imgproc_opencv_ros script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+[2.087s] Installing qrcode_detector script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+[2.087s] Installing quiz5_1_smile_detection script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+[2.087s] writing list of installed files to '/home/fuga1129/autonav_ws/build/opencv_ros2/install.log'
+[2.125s] Invoked command in '/home/fuga1129/autonav_ws/src/opencv_ros2' returned '0': PYTHONPATH=/home/fuga1129/autonav_ws/build/opencv_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opencv_ros2 build --build-base /home/fuga1129/autonav_ws/build/opencv_ros2/build install --record /home/fuga1129/autonav_ws/build/opencv_ros2/install.log --single-version-externally-managed install_data --force

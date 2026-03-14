@@ -1,0 +1,205 @@
+[0.549s] Invoking command in '/home/fuga1129/autonav_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fuga1129/autonav_ws/install/opencv_ros2:/home/fuga1129/autonav_ws/install/autonav:/home/fuga1129/moveit2_ws/install/moveit_configs_utils:/home/fuga1129/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/fuga1129/autonav_ws/src/ros2_aruco/ros2_aruco_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces
+[0.688s] -- The C compiler identification is GNU 11.4.0
+[0.792s] -- The CXX compiler identification is GNU 11.4.0
+[0.803s] -- Detecting C compiler ABI info
+[0.886s] -- Detecting C compiler ABI info - done
+[0.894s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.894s] -- Detecting C compile features
+[0.895s] -- Detecting C compile features - done
+[0.898s] -- Detecting CXX compiler ABI info
+[0.983s] -- Detecting CXX compiler ABI info - done
+[0.991s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.991s] -- Detecting CXX compile features
+[0.992s] -- Detecting CXX compile features - done
+[0.999s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.154s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.222s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.335s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.407s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.418s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.434s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.458s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.534s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.832s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.229s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.368s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.387s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.391s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.421s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.421s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.421s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.421s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.443s] -- Found PythonExtra: .so  
+[2.511s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.556s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.558s] -- Added test 'lint_cmake' to check CMake code style
+[2.559s] -- Added test 'xmllint' to check XML markup files
+[2.562s] -- Configuring done
+[2.582s] -- Generating done
+[2.589s] -- Build files have been written to: /home/fuga1129/autonav_ws/build/ros2_aruco_interfaces
+[2.597s] Invoked command in '/home/fuga1129/autonav_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fuga1129/autonav_ws/install/opencv_ros2:/home/fuga1129/autonav_ws/install/autonav:/home/fuga1129/moveit2_ws/install/moveit_configs_utils:/home/fuga1129/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/fuga1129/autonav_ws/src/ros2_aruco/ros2_aruco_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces
+[2.599s] Invoking command in '/home/fuga1129/autonav_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fuga1129/autonav_ws/install/opencv_ros2:/home/fuga1129/autonav_ws/install/autonav:/home/fuga1129/moveit2_ws/install/moveit_configs_utils:/home/fuga1129/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fuga1129/autonav_ws/build/ros2_aruco_interfaces -- -j12 -l12
+[2.643s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.658s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.665s] [  6%] Built target ament_cmake_python_symlink_ros2_aruco_interfaces
+[2.841s] [  9%] [32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.c.o[0m
+[2.864s] running egg_info
+[2.865s] creating ros2_aruco_interfaces.egg-info
+[2.865s] writing ros2_aruco_interfaces.egg-info/PKG-INFO
+[2.865s] writing dependency_links to ros2_aruco_interfaces.egg-info/dependency_links.txt
+[2.865s] writing top-level names to ros2_aruco_interfaces.egg-info/top_level.txt
+[2.865s] writing manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'
+[2.867s] reading manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'
+[2.867s] writing manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'
+[2.887s] [  9%] Built target ros2_aruco_interfaces__cpp
+[2.892s] [  9%] Built target ament_cmake_python_build_ros2_aruco_interfaces_egg
+[2.898s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.900s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.902s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.918s] [ 22%] [32m[1mLinking C shared library libros2_aruco_interfaces__rosidl_generator_c.so[0m
+[2.963s] [ 22%] Built target ros2_aruco_interfaces__rosidl_generator_c
+[2.975s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.978s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.978s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.077s] [ 35%] [32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_aruco_interfaces/msg/aruco_markers__type_support.cpp.o[0m
+[3.176s] [ 38%] [32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.cpp.o[0m
+[3.180s] [ 41%] [32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_aruco_interfaces/msg/detail/dds_fastrtps/aruco_markers__type_support.cpp.o[0m
+[3.185s] [ 45%] [32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support_c.cpp.o[0m
+[3.225s] [ 48%] [32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.c.o[0m
+[3.240s] [ 51%] [32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_aruco_interfaces/msg/aruco_markers__type_support.cpp.o[0m
+[3.267s] [ 54%] [32m[1mLinking C shared library libros2_aruco_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.280s] [ 58%] [32m[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_c.so[0m
+[3.307s] [ 58%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c
+[3.324s] [ 58%] Built target ros2_aruco_interfaces__rosidl_typesupport_c
+[3.414s] [ 61%] [32m[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_cpp.so[0m
+[3.435s] [ 64%] [32m[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.461s] [ 64%] Built target ros2_aruco_interfaces__rosidl_typesupport_cpp
+[3.506s] [ 64%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c
+[3.604s] [ 67%] [32m[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.611s] [ 70%] [32m[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.671s] [ 70%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp
+[3.677s] [ 70%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.700s] [ 70%] Built target ros2_aruco_interfaces
+[3.727s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.944s] [ 74%] Built target ros2_aruco_interfaces__py
+[3.969s] [ 77%] [32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2_aruco_interfaces/msg/_aruco_markers_s.c.o[0m
+[4.077s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/libros2_aruco_interfaces__rosidl_generator_py.so[0m
+[4.120s] [ 80%] Built target ros2_aruco_interfaces__rosidl_generator_py
+[4.146s] [ 83%] [32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.147s] [ 90%] [32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.147s] [ 90%] [32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.216s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.235s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.247s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.257s] [100%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.276s] [100%] Built target ros2_aruco_interfaces__rosidl_typesupport_c__pyext
+[4.289s] [100%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.302s] Invoked command in '/home/fuga1129/autonav_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fuga1129/autonav_ws/install/opencv_ros2:/home/fuga1129/autonav_ws/install/autonav:/home/fuga1129/moveit2_ws/install/moveit_configs_utils:/home/fuga1129/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fuga1129/autonav_ws/build/ros2_aruco_interfaces -- -j12 -l12
+[4.313s] Invoking command in '/home/fuga1129/autonav_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fuga1129/autonav_ws/install/opencv_ros2:/home/fuga1129/autonav_ws/install/autonav:/home/fuga1129/moveit2_ws/install/moveit_configs_utils:/home/fuga1129/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/fuga1129/autonav_ws/build/ros2_aruco_interfaces
+[4.320s] -- Install configuration: ""
+[4.320s] -- Execute custom install script
+[4.320s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros2_aruco_interfaces
+[4.329s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/aruco_markers.h
+[4.338s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.h
+[4.349s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__struct.h
+[4.359s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.h
+[4.366s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.377s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/library_path.sh
+[4.388s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/library_path.dsv
+[4.397s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_c.h
+[4.406s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.414s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/aruco_markers.hpp
+[4.424s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__builder.hpp
+[4.434s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__struct.hpp
+[4.441s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__traits.hpp
+[4.451s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.hpp
+[4.461s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.469s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_cpp.hpp
+[4.478s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.487s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_introspection_c.h
+[4.495s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.505s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_introspection_cpp.hpp
+[4.514s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/pythonpath.sh
+[4.526s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/pythonpath.dsv
+[4.533s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/PKG-INFO
+[4.544s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt
+[4.552s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt
+[4.559s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/top_level.txt
+[4.568s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/__init__.py
+[4.576s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_c.c
+[4.584s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.595s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.606s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/libros2_aruco_interfaces__rosidl_generator_py.so
+[4.613s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/__init__.py
+[4.625s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/_aruco_markers.py
+[4.632s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/_aruco_markers_s.c
+[4.641s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.652s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.660s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.669s] -- Up-to-date symlink: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.669s] -- Up-to-date symlink: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.670s] -- Up-to-date symlink: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.670s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/msg/ArucoMarkers.idl
+[4.679s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/msg/ArucoMarkers.msg
+[4.687s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/package_run_dependencies/ros2_aruco_interfaces
+[4.696s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/parent_prefix_path/ros2_aruco_interfaces
+[4.704s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/ament_prefix_path.sh
+[4.712s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/ament_prefix_path.dsv
+[4.722s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/path.sh
+[4.733s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/path.dsv
+[4.741s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.bash
+[4.751s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.sh
+[4.760s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.zsh
+[4.770s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.dsv
+[4.778s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv
+[4.788s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/packages/ros2_aruco_interfaces
+[4.798s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.808s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.819s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.829s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.838s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.846s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.854s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.863s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfacesConfig.cmake
+[4.873s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfacesConfig-version.cmake
+[4.882s] -- Symlinking: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.xml
+[4.889s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_c.so
+[4.889s] -- Set runtime path of "/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_c.so" to ""
+[4.889s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.889s] -- Set runtime path of "/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.890s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.890s] -- Set runtime path of "/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.890s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_c.so
+[4.890s] -- Set runtime path of "/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.890s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_c.so
+[4.890s] -- Set runtime path of "/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_c.so" to ""
+[4.890s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.891s] -- Set runtime path of "/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.891s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_cpp.so
+[4.891s] -- Set runtime path of "/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.917s] Listing '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces'...
+[4.917s] Compiling '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/__init__.py'...
+[4.917s] Listing '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg'...
+[4.917s] Compiling '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/__init__.py'...
+[4.917s] Compiling '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/_aruco_markers.py'...
+[4.921s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_py.so
+[4.922s] -- Set runtime path of "/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_py.so" to ""
+[4.922s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_cExport.cmake
+[4.922s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.922s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.922s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.922s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_cppExport.cmake
+[4.922s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.922s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.923s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.923s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.923s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cExport.cmake
+[4.923s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.923s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.923s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.923s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cppExport.cmake
+[4.923s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.923s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_pyExport.cmake
+[4.924s] -- Installing: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.926s] Invoked command in '/home/fuga1129/autonav_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fuga1129/autonav_ws/install/opencv_ros2:/home/fuga1129/autonav_ws/install/autonav:/home/fuga1129/moveit2_ws/install/moveit_configs_utils:/home/fuga1129/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/fuga1129/autonav_ws/build/ros2_aruco_interfaces

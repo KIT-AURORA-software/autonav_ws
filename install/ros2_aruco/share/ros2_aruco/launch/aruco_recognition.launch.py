@@ -1,0 +1,1 @@
+/home/fuga1129/autonav_ws/build/ros2_aruco/launch/aruco_recognition.launch.py

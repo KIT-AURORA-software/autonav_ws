@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing ros2_aruco.egg-info/PKG-INFO
+writing dependency_links to ros2_aruco.egg-info/dependency_links.txt
+writing entry points to ros2_aruco.egg-info/entry_points.txt
+writing requirements to ros2_aruco.egg-info/requires.txt
+writing top-level names to ros2_aruco.egg-info/top_level.txt
+reading manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+writing manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/fuga1129/autonav_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2-aruco.egg-link (link to .)
+Installing aruco_generate_marker script to /home/fuga1129/autonav_ws/install/ros2_aruco/lib/ros2_aruco
+Installing aruco_node script to /home/fuga1129/autonav_ws/install/ros2_aruco/lib/ros2_aruco
+
+Installed /home/fuga1129/autonav_ws/build/ros2_aruco
+running symlink_data
+symbolically linking /home/fuga1129/autonav_ws/build/ros2_aruco/resource/ros2_aruco -> /home/fuga1129/autonav_ws/install/ros2_aruco/share/ament_index/resource_index/packages
+symbolically linking /home/fuga1129/autonav_ws/build/ros2_aruco/package.xml -> /home/fuga1129/autonav_ws/install/ros2_aruco/share/ros2_aruco
+symbolically linking /home/fuga1129/autonav_ws/build/ros2_aruco/launch/aruco_recognition.launch.py -> /home/fuga1129/autonav_ws/install/ros2_aruco/share/ros2_aruco/launch
+symbolically linking /home/fuga1129/autonav_ws/build/ros2_aruco/config/aruco_parameters.yaml -> /home/fuga1129/autonav_ws/install/ros2_aruco/share/ros2_aruco/config

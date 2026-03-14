@@ -1,0 +1,11 @@
+[console_scripts]
+aruco_node_tf = opencv_ros2.aruco_node_tf:main
+aruco_node_tf_v2 = opencv_ros2.aruco_node_tf_v2:main
+canny_edge_detection = opencv_ros2.canny_edge_detection:main
+challenge5_1_say_hello = opencv_ros2.challenge5_1_say_hello:main
+challenge5_2_cup_direction = opencv_ros2.challenge5_2_cup_direction:main
+face_detection = opencv_ros2.face_detection:main
+imgproc_opencv_ros = opencv_ros2.imgproc_opencv_ros:main
+qrcode_detector = opencv_ros2.qrcode_detector:main
+quiz5_1_smile_detection = opencv_ros2.quiz5_1_smile_detection:main
+

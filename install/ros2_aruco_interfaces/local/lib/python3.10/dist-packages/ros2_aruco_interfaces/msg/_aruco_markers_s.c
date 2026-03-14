@@ -1,0 +1,1 @@
+/home/fuga1129/autonav_ws/build/ros2_aruco_interfaces/rosidl_generator_py/ros2_aruco_interfaces/msg/_aruco_markers_s.c

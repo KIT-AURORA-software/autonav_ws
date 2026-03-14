@@ -34,6 +34,11 @@ setup(
             'nav_gps = autonav.nav_gps:main',
             'nav_gps_csv = autonav.nav_gps_csv:main',
             'nav_gps_gate_csv = autonav.nav_gps_gate_csv:main',
+            'aruco_gate_detector = autonav.aruco_gate_detector:main',
+            'odom_tf_broadcaster = autonav.odom_tf_broadcaster:main',
+            'gate_p_controller = autonav.gate_p_controller:main',
+            'gate_follower = autonav.gate_follower:main',
+            'all_gate_follower = autonav.all_gate_follower:main',
         ],
     },
 )

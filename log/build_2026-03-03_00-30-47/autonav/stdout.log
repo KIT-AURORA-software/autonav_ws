@@ -1,0 +1,59 @@
+running develop
+Removing /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav.egg-link (link to .)
+running egg_info
+writing ../../build/autonav/autonav.egg-info/PKG-INFO
+writing dependency_links to ../../build/autonav/autonav.egg-info/dependency_links.txt
+writing entry points to ../../build/autonav/autonav.egg-info/entry_points.txt
+writing requirements to ../../build/autonav/autonav.egg-info/requires.txt
+writing top-level names to ../../build/autonav/autonav.egg-info/top_level.txt
+reading manifest file '../../build/autonav/autonav.egg-info/SOURCES.txt'
+writing manifest file '../../build/autonav/autonav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fuga1129/autonav_ws/build/autonav/build
+creating /home/fuga1129/autonav_ws/build/autonav/build/lib
+creating /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav
+copying autonav/__init__.py -> /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav
+copying autonav/odom_tf_broadcaster.py -> /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav
+copying autonav/aruco_gate_detector.py -> /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav
+copying autonav/nav_gps_csv.py -> /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav
+copying autonav/nav_gps.py -> /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav
+copying autonav/nav_gps_gate_csv.py -> /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav
+running install
+running install_lib
+creating /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav
+copying /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav/__init__.py -> /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav
+copying /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav/odom_tf_broadcaster.py -> /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav
+copying /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav/aruco_gate_detector.py -> /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav
+copying /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav/nav_gps_csv.py -> /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav
+copying /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav/nav_gps.py -> /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav
+copying /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav/nav_gps_gate_csv.py -> /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav
+byte-compiling /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav/odom_tf_broadcaster.py to odom_tf_broadcaster.cpython-310.pyc
+byte-compiling /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav/aruco_gate_detector.py to aruco_gate_detector.cpython-310.pyc
+byte-compiling /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav/nav_gps_csv.py to nav_gps_csv.cpython-310.pyc
+byte-compiling /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav/nav_gps.py to nav_gps.cpython-310.pyc
+byte-compiling /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav/nav_gps_gate_csv.py to nav_gps_gate_csv.cpython-310.pyc
+running install_data
+copying resource/autonav -> /home/fuga1129/autonav_ws/install/autonav/share/ament_index/resource_index/packages
+copying package.xml -> /home/fuga1129/autonav_ws/install/autonav/share/autonav
+copying launch/launch_sim.launch.py -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/launch
+copying launch/rsp.launch.py -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/launch
+copying description/gps.xacro -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/description
+copying description/rocot.urdf.xacro -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/description
+copying description/gazebo_control.xacro -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/description
+copying description/inertial_macros.xacro -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/description
+copying description/imu.xacro -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/description
+copying description/robot_core.xacro -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/description
+copying description/camera.xacro -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/description
+copying launch/launch_sim.launch.py -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/launch
+copying launch/rsp.launch.py -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/launch
+running install_egg_info
+Copying ../../build/autonav/autonav.egg-info to /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav-0.0.0-py3.10.egg-info
+running install_scripts
+Installing aruco_gate_detector script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+Installing nav_gps script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+Installing nav_gps_csv script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+Installing nav_gps_gate_csv script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+Installing odom_tf_broadcaster script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+writing list of installed files to '/home/fuga1129/autonav_ws/build/autonav/install.log'

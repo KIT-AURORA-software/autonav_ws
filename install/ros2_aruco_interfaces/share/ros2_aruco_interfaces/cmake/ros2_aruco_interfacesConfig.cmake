@@ -1,0 +1,1 @@
+/home/fuga1129/autonav_ws/build/ros2_aruco_interfaces/ament_cmake_core/ros2_aruco_interfacesConfig.cmake

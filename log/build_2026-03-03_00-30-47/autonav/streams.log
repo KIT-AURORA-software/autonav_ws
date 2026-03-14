@@ -1,0 +1,63 @@
+[1.293s] Invoking command in '/home/fuga1129/autonav_ws/build/autonav': PYTHONPATH=/home/fuga1129/autonav_ws/build/autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/fuga1129/autonav_ws/build/autonav/build
+[1.604s] running develop
+[1.850s] Removing /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav.egg-link (link to .)
+[1.899s] Invoked command in '/home/fuga1129/autonav_ws/build/autonav' returned '0': PYTHONPATH=/home/fuga1129/autonav_ws/build/autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/fuga1129/autonav_ws/build/autonav/build
+[1.901s] Invoking command in '/home/fuga1129/autonav_ws/src/autonav': PYTHONPATH=/home/fuga1129/autonav_ws/build/autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonav build --build-base /home/fuga1129/autonav_ws/build/autonav/build install --record /home/fuga1129/autonav_ws/build/autonav/install.log --single-version-externally-managed install_data --force
+[2.227s] running egg_info
+[2.228s] writing ../../build/autonav/autonav.egg-info/PKG-INFO
+[2.228s] writing dependency_links to ../../build/autonav/autonav.egg-info/dependency_links.txt
+[2.230s] writing entry points to ../../build/autonav/autonav.egg-info/entry_points.txt
+[2.230s] writing requirements to ../../build/autonav/autonav.egg-info/requires.txt
+[2.230s] writing top-level names to ../../build/autonav/autonav.egg-info/top_level.txt
+[2.232s] reading manifest file '../../build/autonav/autonav.egg-info/SOURCES.txt'
+[2.233s] writing manifest file '../../build/autonav/autonav.egg-info/SOURCES.txt'
+[2.234s] running build
+[2.234s] running build_py
+[2.234s] creating /home/fuga1129/autonav_ws/build/autonav/build
+[2.234s] creating /home/fuga1129/autonav_ws/build/autonav/build/lib
+[2.234s] creating /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav
+[2.234s] copying autonav/__init__.py -> /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav
+[2.234s] copying autonav/odom_tf_broadcaster.py -> /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav
+[2.234s] copying autonav/aruco_gate_detector.py -> /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav
+[2.234s] copying autonav/nav_gps_csv.py -> /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav
+[2.235s] copying autonav/nav_gps.py -> /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav
+[2.235s] copying autonav/nav_gps_gate_csv.py -> /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav
+[2.235s] running install
+[2.236s] running install_lib
+[2.237s] creating /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav
+[2.237s] copying /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav/__init__.py -> /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav
+[2.237s] copying /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav/odom_tf_broadcaster.py -> /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav
+[2.237s] copying /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav/aruco_gate_detector.py -> /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav
+[2.237s] copying /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav/nav_gps_csv.py -> /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav
+[2.237s] copying /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav/nav_gps.py -> /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav
+[2.238s] copying /home/fuga1129/autonav_ws/build/autonav/build/lib/autonav/nav_gps_gate_csv.py -> /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav
+[2.239s] byte-compiling /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav/__init__.py to __init__.cpython-310.pyc
+[2.239s] byte-compiling /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav/odom_tf_broadcaster.py to odom_tf_broadcaster.cpython-310.pyc
+[2.240s] byte-compiling /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav/aruco_gate_detector.py to aruco_gate_detector.cpython-310.pyc
+[2.243s] byte-compiling /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav/nav_gps_csv.py to nav_gps_csv.cpython-310.pyc
+[2.244s] byte-compiling /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav/nav_gps.py to nav_gps.cpython-310.pyc
+[2.245s] byte-compiling /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav/nav_gps_gate_csv.py to nav_gps_gate_csv.cpython-310.pyc
+[2.246s] running install_data
+[2.246s] copying resource/autonav -> /home/fuga1129/autonav_ws/install/autonav/share/ament_index/resource_index/packages
+[2.247s] copying package.xml -> /home/fuga1129/autonav_ws/install/autonav/share/autonav
+[2.247s] copying launch/launch_sim.launch.py -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/launch
+[2.247s] copying launch/rsp.launch.py -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/launch
+[2.247s] copying description/gps.xacro -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/description
+[2.247s] copying description/rocot.urdf.xacro -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/description
+[2.247s] copying description/gazebo_control.xacro -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/description
+[2.247s] copying description/inertial_macros.xacro -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/description
+[2.248s] copying description/imu.xacro -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/description
+[2.248s] copying description/robot_core.xacro -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/description
+[2.248s] copying description/camera.xacro -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/description
+[2.248s] copying launch/launch_sim.launch.py -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/launch
+[2.248s] copying launch/rsp.launch.py -> /home/fuga1129/autonav_ws/install/autonav/share/autonav/launch
+[2.248s] running install_egg_info
+[2.250s] Copying ../../build/autonav/autonav.egg-info to /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav-0.0.0-py3.10.egg-info
+[2.251s] running install_scripts
+[2.272s] Installing aruco_gate_detector script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+[2.272s] Installing nav_gps script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+[2.272s] Installing nav_gps_csv script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+[2.273s] Installing nav_gps_gate_csv script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+[2.273s] Installing odom_tf_broadcaster script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+[2.273s] writing list of installed files to '/home/fuga1129/autonav_ws/build/autonav/install.log'
+[2.308s] Invoked command in '/home/fuga1129/autonav_ws/src/autonav' returned '0': PYTHONPATH=/home/fuga1129/autonav_ws/build/autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonav build --build-base /home/fuga1129/autonav_ws/build/autonav/build install --record /home/fuga1129/autonav_ws/build/autonav/install.log --single-version-externally-managed install_data --force

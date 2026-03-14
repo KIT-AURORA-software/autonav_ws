@@ -1,0 +1,30 @@
+running develop
+running egg_info
+creating opencv_ros2.egg-info
+writing opencv_ros2.egg-info/PKG-INFO
+writing dependency_links to opencv_ros2.egg-info/dependency_links.txt
+writing entry points to opencv_ros2.egg-info/entry_points.txt
+writing requirements to opencv_ros2.egg-info/requires.txt
+writing top-level names to opencv_ros2.egg-info/top_level.txt
+writing manifest file 'opencv_ros2.egg-info/SOURCES.txt'
+reading manifest file 'opencv_ros2.egg-info/SOURCES.txt'
+writing manifest file 'opencv_ros2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv-ros2.egg-link (link to .)
+Installing aruco_node_tf script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+Installing aruco_node_tf_v2 script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+Installing canny_edge_detection script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+Installing challenge5_1_say_hello script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+Installing challenge5_2_cup_direction script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+Installing face_detection script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+Installing imgproc_opencv_ros script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+Installing qrcode_detector script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+Installing quiz5_1_smile_detection script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+
+Installed /home/fuga1129/autonav_ws/build/opencv_ros2
+running symlink_data
+creating /home/fuga1129/autonav_ws/install/opencv_ros2/share/ament_index
+creating /home/fuga1129/autonav_ws/install/opencv_ros2/share/ament_index/resource_index
+creating /home/fuga1129/autonav_ws/install/opencv_ros2/share/ament_index/resource_index/packages
+symbolically linking /home/fuga1129/autonav_ws/build/opencv_ros2/resource/opencv_ros2 -> /home/fuga1129/autonav_ws/install/opencv_ros2/share/ament_index/resource_index/packages
+symbolically linking /home/fuga1129/autonav_ws/build/opencv_ros2/package.xml -> /home/fuga1129/autonav_ws/install/opencv_ros2/share/opencv_ros2

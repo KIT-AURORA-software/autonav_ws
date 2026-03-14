@@ -1,0 +1,62 @@
+running develop
+Removing /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv-ros2.egg-link (link to .)
+running egg_info
+writing ../../build/opencv_ros2/opencv_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../build/opencv_ros2/opencv_ros2.egg-info/dependency_links.txt
+writing entry points to ../../build/opencv_ros2/opencv_ros2.egg-info/entry_points.txt
+writing requirements to ../../build/opencv_ros2/opencv_ros2.egg-info/requires.txt
+writing top-level names to ../../build/opencv_ros2/opencv_ros2.egg-info/top_level.txt
+reading manifest file '../../build/opencv_ros2/opencv_ros2.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/opencv_ros2/opencv_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fuga1129/autonav_ws/build/opencv_ros2/build
+creating /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib
+creating /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+copying opencv_ros2/__init__.py -> /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+copying opencv_ros2/imgproc_opencv_ros.py -> /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+copying opencv_ros2/face_detection.py -> /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+copying opencv_ros2/imgproc_opencv.py -> /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+copying opencv_ros2/aruco_node_tf_v2.py -> /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+copying opencv_ros2/read_write.py -> /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+copying opencv_ros2/qrcode_detector.py -> /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+copying opencv_ros2/aruco_node_tf.py -> /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+copying opencv_ros2/canny_edge_detection.py -> /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2
+running install
+running install_lib
+creating /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+copying /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2/__init__.py -> /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+copying /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2/imgproc_opencv_ros.py -> /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+copying /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2/face_detection.py -> /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+copying /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2/imgproc_opencv.py -> /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+copying /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2/aruco_node_tf_v2.py -> /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+copying /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2/read_write.py -> /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+copying /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2/qrcode_detector.py -> /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+copying /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2/aruco_node_tf.py -> /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+copying /home/fuga1129/autonav_ws/build/opencv_ros2/build/lib/opencv_ros2/canny_edge_detection.py -> /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2
+byte-compiling /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2/imgproc_opencv_ros.py to imgproc_opencv_ros.cpython-310.pyc
+byte-compiling /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2/face_detection.py to face_detection.cpython-310.pyc
+byte-compiling /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2/imgproc_opencv.py to imgproc_opencv.cpython-310.pyc
+byte-compiling /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2/aruco_node_tf_v2.py to aruco_node_tf_v2.cpython-310.pyc
+byte-compiling /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2/read_write.py to read_write.cpython-310.pyc
+byte-compiling /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2/qrcode_detector.py to qrcode_detector.cpython-310.pyc
+byte-compiling /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2/aruco_node_tf.py to aruco_node_tf.cpython-310.pyc
+byte-compiling /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2/canny_edge_detection.py to canny_edge_detection.cpython-310.pyc
+running install_data
+copying resource/opencv_ros2 -> /home/fuga1129/autonav_ws/install/opencv_ros2/share/ament_index/resource_index/packages
+copying package.xml -> /home/fuga1129/autonav_ws/install/opencv_ros2/share/opencv_ros2
+running install_egg_info
+Copying ../../build/opencv_ros2/opencv_ros2.egg-info to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv_ros2-2.0.0-py3.10.egg-info
+running install_scripts
+Installing aruco_node_tf script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+Installing aruco_node_tf_v2 script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+Installing canny_edge_detection script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+Installing challenge5_1_say_hello script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+Installing challenge5_2_cup_direction script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+Installing face_detection script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+Installing imgproc_opencv_ros script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+Installing qrcode_detector script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+Installing quiz5_1_smile_detection script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+writing list of installed files to '/home/fuga1129/autonav_ws/build/opencv_ros2/install.log'
