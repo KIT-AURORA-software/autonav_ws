@@ -23,9 +23,11 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/fuga1129/autonav_proto/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/fuga1129/moveit2_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/fuga1129/aurora_sim_v2/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/fuga1129/gui_ws/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/fuga1129/moveit2_ws/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/fuga1129/rosxbee_ws/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

@@ -39,6 +39,10 @@ setup(
             'gate_p_controller = autonav.gate_p_controller:main',
             'gate_follower = autonav.gate_follower:main',
             'all_gate_follower = autonav.all_gate_follower:main',
+            'odom_publish = autonav.odom_publish:main',
+            '4ws_transform = autonav.4ws_transform:main',
+            'all_nav = autonav.all_nav:main',
+            'all_nav2 = autonav.all_nav2:main',
         ],
     },
 )

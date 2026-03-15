@@ -1,10 +1,14 @@
 [console_scripts]
+4ws_transform = autonav.4ws_transform:main
 all_gate_follower = autonav.all_gate_follower:main
+all_nav = autonav.all_nav:main
+all_nav2 = autonav.all_nav2:main
 aruco_gate_detector = autonav.aruco_gate_detector:main
 gate_follower = autonav.gate_follower:main
 gate_p_controller = autonav.gate_p_controller:main
 nav_gps = autonav.nav_gps:main
 nav_gps_csv = autonav.nav_gps_csv:main
 nav_gps_gate_csv = autonav.nav_gps_gate_csv:main
+odom_publish = autonav.odom_publish:main
 odom_tf_broadcaster = autonav.odom_tf_broadcaster:main
 
