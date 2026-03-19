@@ -1,0 +1,54 @@
+[0mGenerated protobuf message => /home/fuga1129/autonav_ws/build/protolink/proto_files/std_msgs__String.proto[0m
+[0mFiles for nanopb have been generated.
+      Message name : std_msgs__String
+      Please copy the files from the directory below to the development environment of the microcontroller. (STM32 CubeIDE)
+      /home/fuga1129/autonav_ws/install/protolink/share/protolink/nanopb_gen/STM32CubeIDE[0m
+[0mFiles for nanopb have been generated.
+      Message name : std_msgs__String
+      Please copy the files from the directory below lib in to the development environment of the microcontroller. (PlatformIO)
+      /home/fuga1129/autonav_ws/install/protolink/share/protolink/nanopb_gen/platformio[0m
+[0mGenerated protobuf message => /home/fuga1129/autonav_ws/build/protolink/proto_files/std_msgs__Header.proto[0m
+[0mFiles for nanopb have been generated.
+      Message name : std_msgs__Header
+      Please copy the files from the directory below to the development environment of the microcontroller. (STM32 CubeIDE)
+      /home/fuga1129/autonav_ws/install/protolink/share/protolink/nanopb_gen/STM32CubeIDE[0m
+[0mFiles for nanopb have been generated.
+      Message name : std_msgs__Header
+      Please copy the files from the directory below lib in to the development environment of the microcontroller. (PlatformIO)
+      /home/fuga1129/autonav_ws/install/protolink/share/protolink/nanopb_gen/platformio[0m
+[0mGenerated protobuf message => /home/fuga1129/autonav_ws/build/protolink/proto_files/std_msgs__MultiArrayLayout.proto[0m
+[0mFiles for nanopb have been generated.
+      Message name : std_msgs__MultiArrayLayout
+      Please copy the files from the directory below to the development environment of the microcontroller. (STM32 CubeIDE)
+      /home/fuga1129/autonav_ws/install/protolink/share/protolink/nanopb_gen/STM32CubeIDE[0m
+[0mFiles for nanopb have been generated.
+      Message name : std_msgs__MultiArrayLayout
+      Please copy the files from the directory below lib in to the development environment of the microcontroller. (PlatformIO)
+      /home/fuga1129/autonav_ws/install/protolink/share/protolink/nanopb_gen/platformio[0m
+[0mGenerated protobuf message => /home/fuga1129/autonav_ws/build/protolink/proto_files/geometry_msgs__PoseStamped.proto[0m
+[0mFiles for nanopb have been generated.
+      Message name : geometry_msgs__PoseStamped
+      Please copy the files from the directory below to the development environment of the microcontroller. (STM32 CubeIDE)
+      /home/fuga1129/autonav_ws/install/protolink/share/protolink/nanopb_gen/STM32CubeIDE[0m
+[0mFiles for nanopb have been generated.
+      Message name : geometry_msgs__PoseStamped
+      Please copy the files from the directory below lib in to the development environment of the microcontroller. (PlatformIO)
+      /home/fuga1129/autonav_ws/install/protolink/share/protolink/nanopb_gen/platformio[0m
+[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/protolink` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+Cloning into 'nanopb'...
+Already on 'master'
+Writing to /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/platformio/protolink_msgs/proto/geometry_msgs__PoseStamped.pb.h and /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/platformio/protolink_msgs/proto/geometry_msgs__PoseStamped.pb.c
+Writing to /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/platformio/protolink_msgs/proto/std_msgs__String.pb.h and /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/platformio/protolink_msgs/proto/std_msgs__String.pb.c
+Writing to /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/STM32CubeIDE/proto/std_msgs__String.pb.h and /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/STM32CubeIDE/proto/std_msgs__String.pb.c
+Writing to /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/platformio/protolink_msgs/proto/std_msgs__MultiArrayLayout.pb.h and /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/platformio/protolink_msgs/proto/std_msgs__MultiArrayLayout.pb.c
+Writing to /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/platformio/protolink_msgs/proto/std_msgs__Header.pb.h and /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/platformio/protolink_msgs/proto/std_msgs__Header.pb.c
+Writing to /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/STM32CubeIDE/proto/std_msgs__MultiArrayLayout.pb.h and /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/STM32CubeIDE/proto/std_msgs__MultiArrayLayout.pb.c
+Writing to /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/STM32CubeIDE/proto/geometry_msgs__PoseStamped.pb.h and /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/STM32CubeIDE/proto/geometry_msgs__PoseStamped.pb.c
+Traceback (most recent call last):
+  File "/home/fuga1129/autonav_ws/build/protolink/nanopb/src/nanopb/generator/nanopb_generator.py", line 97, in <module>
+    (FieldD.TYPE_ENUM,    nanopb_pb2.IS_8):   ('uint8_t', 'ENUM',  4,  1),
+AttributeError: module 'proto.nanopb_pb2' has no attribute 'IS_8'
+gmake[2]: *** [CMakeFiles/std_msgs__Header_nanopb_stm32cubeide.dir/build.make:74: nanopb_gen/STM32CubeIDE/std_msgs__Header.pb.c] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/std_msgs__Header_nanopb_stm32cubeide.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+gmake: *** [Makefile:146: all] エラー 2

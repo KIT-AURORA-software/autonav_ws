@@ -13,6 +13,7 @@ autonav/__init__.py
 autonav/all_gate_follower.py
 autonav/all_nav.py
 autonav/all_nav2.py
+autonav/all_nav3.py
 autonav/aruco_gate_detector.py
 autonav/gate_follower.py
 autonav/gate_p_controller.py
@@ -33,6 +34,7 @@ description/gazebo_control.xacro
 description/gps.xacro
 description/imu.xacro
 description/inertial_macros.xacro
+description/lidar.xacro
 description/robot_core.xacro
 description/rocot.urdf.xacro
 launch/launch_sim.launch.py

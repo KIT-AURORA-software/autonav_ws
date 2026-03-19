@@ -1,0 +1,18 @@
+[0.930s] Invoking command in '/home/fuga1129/autonav_ws/build/ros2_aruco': PYTHONPATH=/home/fuga1129/autonav_ws/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/autonav_ws/build/ros2_aruco/build --no-deps symlink_data
+[1.114s] running develop
+[1.234s] running egg_info
+[1.235s] writing ros2_aruco.egg-info/PKG-INFO
+[1.235s] writing dependency_links to ros2_aruco.egg-info/dependency_links.txt
+[1.235s] writing entry points to ros2_aruco.egg-info/entry_points.txt
+[1.235s] writing requirements to ros2_aruco.egg-info/requires.txt
+[1.235s] writing top-level names to ros2_aruco.egg-info/top_level.txt
+[1.237s] reading manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[1.237s] writing manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[1.238s] running build_ext
+[1.239s] Creating /home/fuga1129/autonav_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2-aruco.egg-link (link to .)
+[1.239s] Installing aruco_generate_marker script to /home/fuga1129/autonav_ws/install/ros2_aruco/lib/ros2_aruco
+[1.239s] Installing aruco_node script to /home/fuga1129/autonav_ws/install/ros2_aruco/lib/ros2_aruco
+[1.239s] 
+[1.240s] Installed /home/fuga1129/autonav_ws/build/ros2_aruco
+[1.240s] running symlink_data
+[1.265s] Invoked command in '/home/fuga1129/autonav_ws/build/ros2_aruco' returned '0': PYTHONPATH=/home/fuga1129/autonav_ws/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/autonav_ws/build/ros2_aruco/build --no-deps symlink_data

@@ -1,0 +1,28 @@
+[0.852s] Invoking command in '/home/fuga1129/autonav_ws/build/autonav': PYTHONPATH=/home/fuga1129/autonav_ws/build/autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/autonav_ws/build/autonav/build --no-deps symlink_data
+[1.042s] running develop
+[1.154s] running egg_info
+[1.154s] writing autonav.egg-info/PKG-INFO
+[1.154s] writing dependency_links to autonav.egg-info/dependency_links.txt
+[1.154s] writing entry points to autonav.egg-info/entry_points.txt
+[1.154s] writing requirements to autonav.egg-info/requires.txt
+[1.154s] writing top-level names to autonav.egg-info/top_level.txt
+[1.155s] reading manifest file 'autonav.egg-info/SOURCES.txt'
+[1.156s] writing manifest file 'autonav.egg-info/SOURCES.txt'
+[1.157s] running build_ext
+[1.157s] Creating /home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages/autonav.egg-link (link to .)
+[1.158s] Installing 4ws_transform script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+[1.158s] Installing all_gate_follower script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+[1.158s] Installing all_nav script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+[1.158s] Installing all_nav2 script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+[1.158s] Installing aruco_gate_detector script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+[1.158s] Installing gate_follower script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+[1.158s] Installing gate_p_controller script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+[1.158s] Installing nav_gps script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+[1.158s] Installing nav_gps_csv script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+[1.158s] Installing nav_gps_gate_csv script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+[1.158s] Installing odom_publish script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+[1.159s] Installing odom_tf_broadcaster script to /home/fuga1129/autonav_ws/install/autonav/lib/autonav
+[1.159s] 
+[1.159s] Installed /home/fuga1129/autonav_ws/build/autonav
+[1.159s] running symlink_data
+[1.179s] Invoked command in '/home/fuga1129/autonav_ws/build/autonav' returned '0': PYTHONPATH=/home/fuga1129/autonav_ws/build/autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/autonav_ws/build/autonav/build --no-deps symlink_data

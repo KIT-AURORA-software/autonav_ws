@@ -1,0 +1,25 @@
+[0.980s] Invoking command in '/home/fuga1129/autonav_ws/build/opencv_ros2': PYTHONPATH=/home/fuga1129/autonav_ws/build/opencv_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/autonav_ws/build/opencv_ros2/build --no-deps symlink_data
+[1.260s] running develop
+[1.360s] running egg_info
+[1.360s] writing opencv_ros2.egg-info/PKG-INFO
+[1.360s] writing dependency_links to opencv_ros2.egg-info/dependency_links.txt
+[1.360s] writing entry points to opencv_ros2.egg-info/entry_points.txt
+[1.360s] writing requirements to opencv_ros2.egg-info/requires.txt
+[1.360s] writing top-level names to opencv_ros2.egg-info/top_level.txt
+[1.361s] reading manifest file 'opencv_ros2.egg-info/SOURCES.txt'
+[1.362s] writing manifest file 'opencv_ros2.egg-info/SOURCES.txt'
+[1.363s] running build_ext
+[1.363s] Creating /home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages/opencv-ros2.egg-link (link to .)
+[1.363s] Installing aruco_node_tf script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+[1.363s] Installing aruco_node_tf_v2 script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+[1.363s] Installing canny_edge_detection script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+[1.363s] Installing challenge5_1_say_hello script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+[1.364s] Installing challenge5_2_cup_direction script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+[1.364s] Installing face_detection script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+[1.364s] Installing imgproc_opencv_ros script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+[1.364s] Installing qrcode_detector script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+[1.364s] Installing quiz5_1_smile_detection script to /home/fuga1129/autonav_ws/install/opencv_ros2/lib/opencv_ros2
+[1.364s] 
+[1.364s] Installed /home/fuga1129/autonav_ws/build/opencv_ros2
+[1.364s] running symlink_data
+[1.385s] Invoked command in '/home/fuga1129/autonav_ws/build/opencv_ros2' returned '0': PYTHONPATH=/home/fuga1129/autonav_ws/build/opencv_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/autonav_ws/build/opencv_ros2/build --no-deps symlink_data

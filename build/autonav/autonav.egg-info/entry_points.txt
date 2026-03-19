@@ -3,6 +3,7 @@
 all_gate_follower = autonav.all_gate_follower:main
 all_nav = autonav.all_nav:main
 all_nav2 = autonav.all_nav2:main
+all_nav3 = autonav.all_nav3:main
 aruco_gate_detector = autonav.aruco_gate_detector:main
 gate_follower = autonav.gate_follower:main
 gate_p_controller = autonav.gate_p_controller:main

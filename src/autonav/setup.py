@@ -43,6 +43,7 @@ setup(
             '4ws_transform = autonav.4ws_transform:main',
             'all_nav = autonav.all_nav:main',
             'all_nav2 = autonav.all_nav2:main',
+            'all_nav3 = autonav.all_nav3:main',
         ],
     },
 )

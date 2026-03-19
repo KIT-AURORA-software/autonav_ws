@@ -1,0 +1,339 @@
+[0.075s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.075s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x747edb37f0a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x747edb493880>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x747edb493880>>, mixin_verb=('build',))
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.178s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fuga1129/autonav_ws'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonav) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonav) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonav) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonav) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonav) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonav) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonav) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonav) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonav) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonav' with type 'ros.ament_python' and name 'autonav'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_ros2) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_ros2) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_ros2) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_ros2) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_ros2) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_ros2) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_ros2) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_ros2) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/opencv_ros2' with type 'ros.ament_python' and name 'opencv_ros2'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_aruco/ros2_aruco' with type 'ros.ament_python' and name 'ros2_aruco'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_aruco/ros2_aruco_interfaces' with type 'ros.ament_cmake' and name 'ros2_aruco_interfaces'
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/fuga1129/autonav_ws/install
+[0.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/fuga1129/rosxbee_ws/install
+[0.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/fuga1129/gui_ws/install
+[0.211s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/fuga1129/aurora_sim_v2/install
+[0.212s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 55 installed packages in /home/fuga1129/moveit2_ws/install
+[0.212s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/fuga1129/autonav_proto/install
+[0.213s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 417 installed packages in /opt/ros/humble
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.242s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'ros2_aruco_interfaces' is in: /home/fuga1129/autonav_ws/install/ros2_aruco_interfaces, /home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding ros2_aruco_interfaces
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'autonav' build argument 'cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'autonav' build argument 'cmake_target' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'autonav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'autonav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'autonav' build argument 'cmake_clean_first' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'autonav' build argument 'cmake_force_configure' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'autonav' build argument 'ament_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'autonav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'autonav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.243s] DEBUG:colcon.colcon_core.verb:Building package 'autonav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fuga1129/autonav_ws/build/autonav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fuga1129/autonav_ws/install/autonav', 'merge_install': False, 'path': '/home/fuga1129/autonav_ws/src/autonav', 'symlink_install': True, 'test_result_base': None}
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'cmake_target' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.243s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fuga1129/autonav_ws/build/opencv_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fuga1129/autonav_ws/install/opencv_ros2', 'merge_install': False, 'path': '/home/fuga1129/autonav_ws/src/opencv_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_target' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_clean_cache' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_clean_first' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_force_configure' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'ament_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'catkin_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.243s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_aruco' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fuga1129/autonav_ws/build/ros2_aruco', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fuga1129/autonav_ws/install/ros2_aruco', 'merge_install': False, 'path': '/home/fuga1129/autonav_ws/src/ros2_aruco/ros2_aruco', 'symlink_install': True, 'test_result_base': None}
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_aruco_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fuga1129/autonav_ws/build/ros2_aruco_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces', 'merge_install': False, 'path': '/home/fuga1129/autonav_ws/src/ros2_aruco/ros2_aruco_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.244s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.244s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.245s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fuga1129/autonav_ws/src/autonav' with build type 'ament_python'
+[0.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonav', 'ament_prefix_path')
+[0.247s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/autonav/share/autonav/hook/ament_prefix_path.ps1'
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/autonav_ws/install/autonav/share/autonav/hook/ament_prefix_path.dsv'
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/autonav/share/autonav/hook/ament_prefix_path.sh'
+[0.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.254s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fuga1129/autonav_ws/src/opencv_ros2' with build type 'ament_python'
+[0.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_ros2', 'ament_prefix_path')
+[0.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/opencv_ros2/share/opencv_ros2/hook/ament_prefix_path.ps1'
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/autonav_ws/install/opencv_ros2/share/opencv_ros2/hook/ament_prefix_path.dsv'
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/opencv_ros2/share/opencv_ros2/hook/ament_prefix_path.sh'
+[0.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fuga1129/autonav_ws/src/ros2_aruco/ros2_aruco' with build type 'ament_python'
+[0.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'ament_prefix_path')
+[0.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.ps1'
+[0.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/autonav_ws/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.dsv'
+[0.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.sh'
+[0.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.266s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fuga1129/autonav_ws/src/ros2_aruco/ros2_aruco_interfaces' with build type 'ament_cmake'
+[0.266s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fuga1129/autonav_ws/src/ros2_aruco/ros2_aruco_interfaces'
+[0.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.442s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fuga1129/autonav_ws/src/autonav'
+[0.442s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.442s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.612s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fuga1129/autonav_ws/src/opencv_ros2'
+[0.612s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.612s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.785s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fuga1129/autonav_ws/src/ros2_aruco/ros2_aruco'
+[0.785s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.785s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fuga1129/autonav_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fuga1129/autonav_ws/install/ros2_aruco:/home/fuga1129/autonav_ws/install/opencv_ros2:/home/fuga1129/autonav_ws/install/autonav:/home/fuga1129/rosxbee_ws/install/rosxbeepy:/home/fuga1129/rosxbee_ws/install/rosxbeefinal:/home/fuga1129/gui_ws/install/pyqt_test:/home/fuga1129/aurora_sim_v2/install/yolov8_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_autonav:/home/fuga1129/aurora_sim_v2/install/ros2_aruco:/home/fuga1129/aurora_sim_v2/install/opencv_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_drive:/home/fuga1129/aurora_sim_v2/install/aurora1:/home/fuga1129/moveit2_ws/install/moveit_configs_utils:/home/fuga1129/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fuga1129/autonav_ws/build/ros2_aruco_interfaces -- -j12 -l12
+[1.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fuga1129/autonav_ws/build/opencv_ros2': PYTHONPATH=/home/fuga1129/autonav_ws/build/opencv_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/autonav_ws/build/opencv_ros2/build --no-deps symlink_data
+[1.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fuga1129/autonav_ws/build/autonav': PYTHONPATH=/home/fuga1129/autonav_ws/build/autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/autonav_ws/build/autonav/build --no-deps symlink_data
+[1.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fuga1129/autonav_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fuga1129/autonav_ws/install/ros2_aruco:/home/fuga1129/autonav_ws/install/opencv_ros2:/home/fuga1129/autonav_ws/install/autonav:/home/fuga1129/rosxbee_ws/install/rosxbeepy:/home/fuga1129/rosxbee_ws/install/rosxbeefinal:/home/fuga1129/gui_ws/install/pyqt_test:/home/fuga1129/aurora_sim_v2/install/yolov8_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_autonav:/home/fuga1129/aurora_sim_v2/install/ros2_aruco:/home/fuga1129/aurora_sim_v2/install/opencv_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_drive:/home/fuga1129/aurora_sim_v2/install/aurora1:/home/fuga1129/moveit2_ws/install/moveit_configs_utils:/home/fuga1129/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fuga1129/autonav_ws/build/ros2_aruco_interfaces -- -j12 -l12
+[1.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fuga1129/autonav_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fuga1129/autonav_ws/install/ros2_aruco:/home/fuga1129/autonav_ws/install/opencv_ros2:/home/fuga1129/autonav_ws/install/autonav:/home/fuga1129/rosxbee_ws/install/rosxbeepy:/home/fuga1129/rosxbee_ws/install/rosxbeefinal:/home/fuga1129/gui_ws/install/pyqt_test:/home/fuga1129/aurora_sim_v2/install/yolov8_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_autonav:/home/fuga1129/aurora_sim_v2/install/ros2_aruco:/home/fuga1129/aurora_sim_v2/install/opencv_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_drive:/home/fuga1129/aurora_sim_v2/install/aurora1:/home/fuga1129/moveit2_ws/install/moveit_configs_utils:/home/fuga1129/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/fuga1129/autonav_ws/build/ros2_aruco_interfaces
+[1.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fuga1129/autonav_ws/build/ros2_aruco': PYTHONPATH=/home/fuga1129/autonav_ws/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/autonav_ws/build/ros2_aruco/build --no-deps symlink_data
+[1.297s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco_interfaces)
+[1.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fuga1129/autonav_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fuga1129/autonav_ws/install/ros2_aruco:/home/fuga1129/autonav_ws/install/opencv_ros2:/home/fuga1129/autonav_ws/install/autonav:/home/fuga1129/rosxbee_ws/install/rosxbeepy:/home/fuga1129/rosxbee_ws/install/rosxbeefinal:/home/fuga1129/gui_ws/install/pyqt_test:/home/fuga1129/aurora_sim_v2/install/yolov8_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_autonav:/home/fuga1129/aurora_sim_v2/install/ros2_aruco:/home/fuga1129/aurora_sim_v2/install/opencv_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_drive:/home/fuga1129/aurora_sim_v2/install/aurora1:/home/fuga1129/moveit2_ws/install/moveit_configs_utils:/home/fuga1129/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/fuga1129/autonav_ws/build/ros2_aruco_interfaces
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces' for CMake module files
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces' for CMake config files
+[1.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'cmake_prefix_path')
+[1.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.ps1'
+[1.303s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.dsv'
+[1.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.sh'
+[1.304s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib'
+[1.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'ld_library_path_lib')
+[1.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.ps1'
+[1.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.dsv'
+[1.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.sh'
+[1.306s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/bin'
+[1.306s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/pkgconfig/ros2_aruco_interfaces.pc'
+[1.306s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/python3.10/site-packages'
+[1.306s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/bin'
+[1.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.ps1'
+[1.308s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv'
+[1.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.sh'
+[1.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.bash'
+[1.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.zsh'
+[1.310s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/colcon-core/packages/ros2_aruco_interfaces)
+[1.311s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco_interfaces)
+[1.311s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces' for CMake module files
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces' for CMake config files
+[1.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'cmake_prefix_path')
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.ps1'
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.dsv'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.sh'
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib'
+[1.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'ld_library_path_lib')
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.ps1'
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.dsv'
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.sh'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/bin'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/pkgconfig/ros2_aruco_interfaces.pc'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/lib/python3.10/site-packages'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/bin'
+[1.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.ps1'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.sh'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.bash'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.zsh'
+[1.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fuga1129/autonav_ws/install/ros2_aruco_interfaces/share/colcon-core/packages/ros2_aruco_interfaces)
+[1.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonav', 'pythonpath_develop')
+[1.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/build/autonav/share/autonav/hook/pythonpath_develop.ps1'
+[1.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fuga1129/autonav_ws/build/autonav' returned '0': PYTHONPATH=/home/fuga1129/autonav_ws/build/autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/autonav_ws/build/autonav/build --no-deps symlink_data
+[1.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/autonav_ws/build/autonav/share/autonav/hook/pythonpath_develop.dsv'
+[1.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/build/autonav/share/autonav/hook/pythonpath_develop.sh'
+[1.426s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/autonav' for CMake module files
+[1.426s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/autonav' for CMake config files
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/autonav/lib'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/autonav/bin'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/autonav/lib/pkgconfig/autonav.pc'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/autonav/lib/python3.10/site-packages'
+[1.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonav', 'pythonpath')
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/autonav/share/autonav/hook/pythonpath.ps1'
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/autonav_ws/install/autonav/share/autonav/hook/pythonpath.dsv'
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/autonav/share/autonav/hook/pythonpath.sh'
+[1.429s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/autonav/bin'
+[1.429s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonav)
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/autonav/share/autonav/package.ps1'
+[1.430s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fuga1129/autonav_ws/install/autonav/share/autonav/package.dsv'
+[1.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/autonav/share/autonav/package.sh'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/autonav/share/autonav/package.bash'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/autonav/share/autonav/package.zsh'
+[1.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fuga1129/autonav_ws/install/autonav/share/colcon-core/packages/autonav)
+[1.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_ros2', 'pythonpath_develop')
+[1.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/build/opencv_ros2/share/opencv_ros2/hook/pythonpath_develop.ps1'
+[1.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fuga1129/autonav_ws/build/opencv_ros2' returned '0': PYTHONPATH=/home/fuga1129/autonav_ws/build/opencv_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/autonav_ws/build/opencv_ros2/build --no-deps symlink_data
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/autonav_ws/build/opencv_ros2/share/opencv_ros2/hook/pythonpath_develop.dsv'
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/build/opencv_ros2/share/opencv_ros2/hook/pythonpath_develop.sh'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/opencv_ros2' for CMake module files
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/opencv_ros2' for CMake config files
+[1.438s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/opencv_ros2/lib'
+[1.438s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/opencv_ros2/bin'
+[1.438s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/opencv_ros2/lib/pkgconfig/opencv_ros2.pc'
+[1.438s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/opencv_ros2/lib/python3.10/site-packages'
+[1.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_ros2', 'pythonpath')
+[1.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/opencv_ros2/share/opencv_ros2/hook/pythonpath.ps1'
+[1.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/autonav_ws/install/opencv_ros2/share/opencv_ros2/hook/pythonpath.dsv'
+[1.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/opencv_ros2/share/opencv_ros2/hook/pythonpath.sh'
+[1.440s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/opencv_ros2/bin'
+[1.440s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_ros2)
+[1.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/opencv_ros2/share/opencv_ros2/package.ps1'
+[1.440s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fuga1129/autonav_ws/install/opencv_ros2/share/opencv_ros2/package.dsv'
+[1.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/opencv_ros2/share/opencv_ros2/package.sh'
+[1.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/opencv_ros2/share/opencv_ros2/package.bash'
+[1.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/opencv_ros2/share/opencv_ros2/package.zsh'
+[1.442s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fuga1129/autonav_ws/install/opencv_ros2/share/colcon-core/packages/opencv_ros2)
+[1.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'pythonpath_develop')
+[1.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/build/ros2_aruco/share/ros2_aruco/hook/pythonpath_develop.ps1'
+[1.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fuga1129/autonav_ws/build/ros2_aruco' returned '0': PYTHONPATH=/home/fuga1129/autonav_ws/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/autonav_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/autonav_ws/build/ros2_aruco/build --no-deps symlink_data
+[1.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/autonav_ws/build/ros2_aruco/share/ros2_aruco/hook/pythonpath_develop.dsv'
+[1.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/build/ros2_aruco/share/ros2_aruco/hook/pythonpath_develop.sh'
+[1.613s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco' for CMake module files
+[1.613s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco' for CMake config files
+[1.614s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco/lib'
+[1.614s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco/bin'
+[1.614s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco/lib/pkgconfig/ros2_aruco.pc'
+[1.614s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco/lib/python3.10/site-packages'
+[1.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'pythonpath')
+[1.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.ps1'
+[1.615s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/autonav_ws/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.dsv'
+[1.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/autonav_ws/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.sh'
+[1.616s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/autonav_ws/install/ros2_aruco/bin'
+[1.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco)
+[1.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/ros2_aruco/share/ros2_aruco/package.ps1'
+[1.616s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fuga1129/autonav_ws/install/ros2_aruco/share/ros2_aruco/package.dsv'
+[1.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/ros2_aruco/share/ros2_aruco/package.sh'
+[1.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/ros2_aruco/share/ros2_aruco/package.bash'
+[1.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/autonav_ws/install/ros2_aruco/share/ros2_aruco/package.zsh'
+[1.617s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fuga1129/autonav_ws/install/ros2_aruco/share/colcon-core/packages/ros2_aruco)
+[1.617s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.617s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.618s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.618s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.624s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.624s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.624s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.633s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.633s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fuga1129/autonav_ws/install/local_setup.ps1'
+[1.634s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fuga1129/autonav_ws/install/_local_setup_util_ps1.py'
+[1.635s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fuga1129/autonav_ws/install/setup.ps1'
+[1.637s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fuga1129/autonav_ws/install/local_setup.sh'
+[1.637s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fuga1129/autonav_ws/install/_local_setup_util_sh.py'
+[1.637s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fuga1129/autonav_ws/install/setup.sh'
+[1.639s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fuga1129/autonav_ws/install/local_setup.bash'
+[1.639s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fuga1129/autonav_ws/install/setup.bash'
+[1.641s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fuga1129/autonav_ws/install/local_setup.zsh'
+[1.641s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fuga1129/autonav_ws/install/setup.zsh'

@@ -1,0 +1,101 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found PahoMqttC: /usr/lib/x86_64-linux-gnu/libpaho-mqtt3as.so  
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fuga1129/autonav_ws/build/protolink
+[  3%] [34m[1mGenerating proto_files/std_msgs__MultiArrayLayout.proto, proto_files/conversion_std_msgs__MultiArrayLayout.hpp, proto_files/conversion_std_msgs__MultiArrayLayout.cpp[0m
+[  3%] [34m[1mGenerating proto_files/std_msgs__String.proto, proto_files/conversion_std_msgs__String.hpp, proto_files/conversion_std_msgs__String.cpp[0m
+[  5%] [34m[1mGenerating proto_files/std_msgs__Header.proto, proto_files/conversion_std_msgs__Header.hpp, proto_files/conversion_std_msgs__Header.cpp[0m
+[  7%] [34m[1mGenerating proto_files/geometry_msgs__PoseStamped.proto, proto_files/conversion_geometry_msgs__PoseStamped.hpp, proto_files/conversion_geometry_msgs__PoseStamped.cpp[0m
+[  9%] [32mBuilding CXX object CMakeFiles/protolink.dir/src/client.cpp.o[0m
+[ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/protolink.dir/src/serial_protocol.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/protolink.dir/src/udp_protocol.cpp.o[0m
+[ 18%] [34m[1mCreating directories for 'nanopb'[0m
+[ 20%] [34m[1mPerforming download step (git clone) for 'nanopb'[0m
+[ 22%] [34m[1mRunning cpp protocol buffer compiler on /home/fuga1129/autonav_ws/build/protolink/proto_files/std_msgs__String.proto[0m
+[ 24%] [34m[1mRunning cpp protocol buffer compiler on /home/fuga1129/autonav_ws/build/protolink/proto_files/std_msgs__MultiArrayLayout.proto[0m
+[ 26%] [34m[1mRunning cpp protocol buffer compiler on /home/fuga1129/autonav_ws/build/protolink/proto_files/std_msgs__Header.proto[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/std_msgs__Header_proto.dir/proto_files/conversion_std_msgs__Header.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/std_msgs__Header_proto.dir/proto_files/std_msgs__Header.pb.cc.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/std_msgs__String_proto.dir/proto_files/std_msgs__String.pb.cc.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/std_msgs__String_proto.dir/proto_files/conversion_std_msgs__String.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/std_msgs__MultiArrayLayout_proto.dir/proto_files/conversion_std_msgs__MultiArrayLayout.cpp.o[0m
+[ 37%] [34m[1mRunning cpp protocol buffer compiler on /home/fuga1129/autonav_ws/build/protolink/proto_files/geometry_msgs__PoseStamped.proto[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/geometry_msgs__PoseStamped_proto.dir/proto_files/conversion_geometry_msgs__PoseStamped.cpp.o[0m
+[ 41%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 41%] Built target gtest_main
+[ 43%] [32mBuilding CXX object CMakeFiles/geometry_msgs__PoseStamped_proto.dir/proto_files/geometry_msgs__PoseStamped.pb.cc.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/std_msgs__MultiArrayLayout_proto.dir/proto_files/std_msgs__MultiArrayLayout.pb.cc.o[0m
+[ 47%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 47%] Built target gtest
+[ 49%] [32m[1mLinking CXX shared library libstd_msgs__Header_proto.so[0m
+[ 50%] [32m[1mLinking CXX shared library libstd_msgs__MultiArrayLayout_proto.so[0m
+[ 50%] Built target std_msgs__Header_proto
+[ 50%] Built target std_msgs__MultiArrayLayout_proto
+[ 52%] [32m[1mLinking CXX shared library libstd_msgs__String_proto.so[0m
+[ 52%] Built target std_msgs__String_proto
+[ 54%] [32m[1mLinking CXX shared library libgeometry_msgs__PoseStamped_proto.so[0m
+[ 54%] Built target geometry_msgs__PoseStamped_proto
+[ 56%] [32m[1mLinking CXX shared library libprotolink.so[0m
+[ 56%] Built target protolink
+[ 58%] [32mBuilding CXX object CMakeFiles/unittest.dir/test/test.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable unittest[0m
+[ 60%] Built target unittest
+Your branch is up to date with 'origin/master'.
+[ 62%] [34m[1mNo patch step for 'nanopb'[0m
+[ 64%] [34m[1mNo configure step for 'nanopb'[0m
+[ 66%] [34m[1mNo build step for 'nanopb'[0m
+[ 67%] [34m[1mNo install step for 'nanopb'[0m
+[ 69%] [34m[1mCompleted 'nanopb'[0m
+[ 69%] Built target nanopb
+[ 71%] [34m[1mGenerating nanopb_gen/platformio/protolink_msgs/geometry_msgs__PoseStamped.pb.c, nanopb_gen/platformio/protolink_msgs/geometry_msgs__PoseStamped.pb.h[0m
+[ 73%] [34m[1mGenerating nanopb_gen/STM32CubeIDE/std_msgs__String.pb.c, nanopb_gen/STM32CubeIDE/std_msgs__String.pb.h[0m
+[ 75%] [34m[1mGenerating nanopb_gen/platformio/protolink_msgs/std_msgs__MultiArrayLayout.pb.c, nanopb_gen/platformio/protolink_msgs/std_msgs__MultiArrayLayout.pb.h[0m
+[ 77%] [34m[1mGenerating nanopb_gen/platformio/protolink_msgs/std_msgs__Header.pb.c, nanopb_gen/platformio/protolink_msgs/std_msgs__Header.pb.h[0m
+[ 79%] [34m[1mGenerating nanopb_gen/platformio/protolink_msgs/std_msgs__String.pb.c, nanopb_gen/platformio/protolink_msgs/std_msgs__String.pb.h[0m
+[ 81%] [34m[1mGenerating nanopb_gen/STM32CubeIDE/std_msgs__Header.pb.c, nanopb_gen/STM32CubeIDE/std_msgs__Header.pb.h[0m
+[ 83%] [34m[1mGenerating nanopb_gen/STM32CubeIDE/std_msgs__MultiArrayLayout.pb.c, nanopb_gen/STM32CubeIDE/std_msgs__MultiArrayLayout.pb.h[0m
+[ 84%] [34m[1mGenerating nanopb_gen/STM32CubeIDE/geometry_msgs__PoseStamped.pb.c, nanopb_gen/STM32CubeIDE/geometry_msgs__PoseStamped.pb.h[0m
+[ 86%] Built target std_msgs__String_nanopb_stm32cubeide
+[ 88%] Built target geometry_msgs__PoseStamped_nanopb_platformio
+[ 90%] Built target std_msgs__String_nanopb_platformio
+[ 92%] Built target std_msgs__MultiArrayLayout_nanopb_stm32cubeide
+[ 96%] Built target std_msgs__MultiArrayLayout_nanopb_platformio
+[ 96%] Built target std_msgs__Header_nanopb_platformio
+[ 98%] Built target geometry_msgs__PoseStamped_nanopb_stm32cubeide

@@ -1,0 +1,159 @@
+[0.386s] Invoking command in '/home/fuga1129/autonav_ws/build/protolink': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fuga1129/autonav_ws/install/ros2_aruco:/home/fuga1129/autonav_ws/install/opencv_ros2:/home/fuga1129/autonav_ws/install/autonav:/home/fuga1129/rosxbee_ws/install/rosxbeepy:/home/fuga1129/rosxbee_ws/install/rosxbeefinal:/home/fuga1129/gui_ws/install/pyqt_test:/home/fuga1129/aurora_sim_v2/install/yolov8_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_autonav:/home/fuga1129/aurora_sim_v2/install/ros2_aruco:/home/fuga1129/aurora_sim_v2/install/opencv_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_drive:/home/fuga1129/aurora_sim_v2/install/aurora1:/home/fuga1129/moveit2_ws/install/moveit_configs_utils:/home/fuga1129/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/fuga1129/autonav_ws/src/protolink -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fuga1129/autonav_ws/install/protolink
+[0.911s] -- The C compiler identification is GNU 11.4.0
+[1.235s] -- The CXX compiler identification is GNU 11.4.0
+[1.284s] -- Detecting C compiler ABI info
+[1.364s] -- Detecting C compiler ABI info - done
+[1.371s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.371s] -- Detecting C compile features
+[1.372s] -- Detecting C compile features - done
+[1.374s] -- Detecting CXX compiler ABI info
+[1.463s] -- Detecting CXX compiler ABI info - done
+[1.468s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.468s] -- Detecting CXX compile features
+[1.469s] -- Detecting CXX compile features - done
+[1.474s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.637s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.699s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.877s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.885s] -- Found PahoMqttC: /usr/lib/x86_64-linux-gnu/libpaho-mqtt3as.so  
+[1.887s] -- Looking for pthread.h
+[1.971s] -- Looking for pthread.h - found
+[1.971s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.053s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.054s] -- Found Threads: TRUE  
+[2.076s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.280s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.291s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.306s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.328s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.355s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.450s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.457s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.534s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.573s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.666s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.676s] [0mGenerated protobuf message => /home/fuga1129/autonav_ws/build/protolink/proto_files/std_msgs__String.proto[0m
+[2.701s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[2.717s] [0mFiles for nanopb have been generated.
+[2.717s]       Message name : std_msgs__String
+[2.717s]       Please copy the files from the directory below to the development environment of the microcontroller. (STM32 CubeIDE)
+[2.717s]       /home/fuga1129/autonav_ws/install/protolink/share/protolink/nanopb_gen/STM32CubeIDE[0m
+[2.718s] [0mFiles for nanopb have been generated.
+[2.718s]       Message name : std_msgs__String
+[2.718s]       Please copy the files from the directory below lib in to the development environment of the microcontroller. (PlatformIO)
+[2.718s]       /home/fuga1129/autonav_ws/install/protolink/share/protolink/nanopb_gen/platformio[0m
+[2.718s] [0mGenerated protobuf message => /home/fuga1129/autonav_ws/build/protolink/proto_files/std_msgs__Header.proto[0m
+[2.728s] [0mFiles for nanopb have been generated.
+[2.728s]       Message name : std_msgs__Header
+[2.728s]       Please copy the files from the directory below to the development environment of the microcontroller. (STM32 CubeIDE)
+[2.728s]       /home/fuga1129/autonav_ws/install/protolink/share/protolink/nanopb_gen/STM32CubeIDE[0m
+[2.728s] [0mFiles for nanopb have been generated.
+[2.728s]       Message name : std_msgs__Header
+[2.728s]       Please copy the files from the directory below lib in to the development environment of the microcontroller. (PlatformIO)
+[2.728s]       /home/fuga1129/autonav_ws/install/protolink/share/protolink/nanopb_gen/platformio[0m
+[2.728s] [0mGenerated protobuf message => /home/fuga1129/autonav_ws/build/protolink/proto_files/std_msgs__MultiArrayLayout.proto[0m
+[2.737s] [0mFiles for nanopb have been generated.
+[2.738s]       Message name : std_msgs__MultiArrayLayout
+[2.738s]       Please copy the files from the directory below to the development environment of the microcontroller. (STM32 CubeIDE)
+[2.738s]       /home/fuga1129/autonav_ws/install/protolink/share/protolink/nanopb_gen/STM32CubeIDE[0m
+[2.738s] [0mFiles for nanopb have been generated.
+[2.738s]       Message name : std_msgs__MultiArrayLayout
+[2.738s]       Please copy the files from the directory below lib in to the development environment of the microcontroller. (PlatformIO)
+[2.738s]       /home/fuga1129/autonav_ws/install/protolink/share/protolink/nanopb_gen/platformio[0m
+[2.738s] [0mGenerated protobuf message => /home/fuga1129/autonav_ws/build/protolink/proto_files/geometry_msgs__PoseStamped.proto[0m
+[2.747s] [0mFiles for nanopb have been generated.
+[2.747s]       Message name : geometry_msgs__PoseStamped
+[2.747s]       Please copy the files from the directory below to the development environment of the microcontroller. (STM32 CubeIDE)
+[2.747s]       /home/fuga1129/autonav_ws/install/protolink/share/protolink/nanopb_gen/STM32CubeIDE[0m
+[2.748s] [0mFiles for nanopb have been generated.
+[2.748s]       Message name : geometry_msgs__PoseStamped
+[2.748s]       Please copy the files from the directory below lib in to the development environment of the microcontroller. (PlatformIO)
+[2.748s]       /home/fuga1129/autonav_ws/install/protolink/share/protolink/nanopb_gen/platformio[0m
+[2.752s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.757s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.761s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/protolink` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[2.766s] -- Configuring done
+[2.795s] -- Generating done
+[2.804s] -- Build files have been written to: /home/fuga1129/autonav_ws/build/protolink
+[2.813s] Invoked command in '/home/fuga1129/autonav_ws/build/protolink' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fuga1129/autonav_ws/install/ros2_aruco:/home/fuga1129/autonav_ws/install/opencv_ros2:/home/fuga1129/autonav_ws/install/autonav:/home/fuga1129/rosxbee_ws/install/rosxbeepy:/home/fuga1129/rosxbee_ws/install/rosxbeefinal:/home/fuga1129/gui_ws/install/pyqt_test:/home/fuga1129/aurora_sim_v2/install/yolov8_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_autonav:/home/fuga1129/aurora_sim_v2/install/ros2_aruco:/home/fuga1129/aurora_sim_v2/install/opencv_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_drive:/home/fuga1129/aurora_sim_v2/install/aurora1:/home/fuga1129/moveit2_ws/install/moveit_configs_utils:/home/fuga1129/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/fuga1129/autonav_ws/src/protolink -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fuga1129/autonav_ws/install/protolink
+[2.814s] Invoking command in '/home/fuga1129/autonav_ws/build/protolink': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fuga1129/autonav_ws/install/ros2_aruco:/home/fuga1129/autonav_ws/install/opencv_ros2:/home/fuga1129/autonav_ws/install/autonav:/home/fuga1129/rosxbee_ws/install/rosxbeepy:/home/fuga1129/rosxbee_ws/install/rosxbeefinal:/home/fuga1129/gui_ws/install/pyqt_test:/home/fuga1129/aurora_sim_v2/install/yolov8_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_autonav:/home/fuga1129/aurora_sim_v2/install/ros2_aruco:/home/fuga1129/aurora_sim_v2/install/opencv_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_drive:/home/fuga1129/aurora_sim_v2/install/aurora1:/home/fuga1129/moveit2_ws/install/moveit_configs_utils:/home/fuga1129/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fuga1129/autonav_ws/build/protolink -- -j12 -l12
+[2.859s] [  3%] [34m[1mGenerating proto_files/std_msgs__MultiArrayLayout.proto, proto_files/conversion_std_msgs__MultiArrayLayout.hpp, proto_files/conversion_std_msgs__MultiArrayLayout.cpp[0m
+[2.859s] [  3%] [34m[1mGenerating proto_files/std_msgs__String.proto, proto_files/conversion_std_msgs__String.hpp, proto_files/conversion_std_msgs__String.cpp[0m
+[2.860s] [  5%] [34m[1mGenerating proto_files/std_msgs__Header.proto, proto_files/conversion_std_msgs__Header.hpp, proto_files/conversion_std_msgs__Header.cpp[0m
+[2.861s] [  7%] [34m[1mGenerating proto_files/geometry_msgs__PoseStamped.proto, proto_files/conversion_geometry_msgs__PoseStamped.hpp, proto_files/conversion_geometry_msgs__PoseStamped.cpp[0m
+[2.872s] [  9%] [32mBuilding CXX object CMakeFiles/protolink.dir/src/client.cpp.o[0m
+[2.873s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.873s] [ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.876s] [ 15%] [32mBuilding CXX object CMakeFiles/protolink.dir/src/serial_protocol.cpp.o[0m
+[2.877s] [ 16%] [32mBuilding CXX object CMakeFiles/protolink.dir/src/udp_protocol.cpp.o[0m
+[2.877s] [ 18%] [34m[1mCreating directories for 'nanopb'[0m
+[2.973s] [ 20%] [34m[1mPerforming download step (git clone) for 'nanopb'[0m
+[2.997s] Cloning into 'nanopb'...
+[3.016s] [ 22%] [34m[1mRunning cpp protocol buffer compiler on /home/fuga1129/autonav_ws/build/protolink/proto_files/std_msgs__String.proto[0m
+[3.033s] [ 24%] [34m[1mRunning cpp protocol buffer compiler on /home/fuga1129/autonav_ws/build/protolink/proto_files/std_msgs__MultiArrayLayout.proto[0m
+[3.043s] [ 26%] [34m[1mRunning cpp protocol buffer compiler on /home/fuga1129/autonav_ws/build/protolink/proto_files/std_msgs__Header.proto[0m
+[3.099s] [ 28%] [32mBuilding CXX object CMakeFiles/std_msgs__Header_proto.dir/proto_files/conversion_std_msgs__Header.cpp.o[0m
+[3.103s] [ 30%] [32mBuilding CXX object CMakeFiles/std_msgs__Header_proto.dir/proto_files/std_msgs__Header.pb.cc.o[0m
+[3.109s] [ 32%] [32mBuilding CXX object CMakeFiles/std_msgs__String_proto.dir/proto_files/std_msgs__String.pb.cc.o[0m
+[3.109s] [ 33%] [32mBuilding CXX object CMakeFiles/std_msgs__String_proto.dir/proto_files/conversion_std_msgs__String.cpp.o[0m
+[3.116s] [ 35%] [32mBuilding CXX object CMakeFiles/std_msgs__MultiArrayLayout_proto.dir/proto_files/conversion_std_msgs__MultiArrayLayout.cpp.o[0m
+[3.194s] [ 37%] [34m[1mRunning cpp protocol buffer compiler on /home/fuga1129/autonav_ws/build/protolink/proto_files/geometry_msgs__PoseStamped.proto[0m
+[3.251s] [ 39%] [32mBuilding CXX object CMakeFiles/geometry_msgs__PoseStamped_proto.dir/proto_files/conversion_geometry_msgs__PoseStamped.cpp.o[0m
+[3.883s] [ 41%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.942s] [ 41%] Built target gtest_main
+[3.959s] [ 43%] [32mBuilding CXX object CMakeFiles/geometry_msgs__PoseStamped_proto.dir/proto_files/geometry_msgs__PoseStamped.pb.cc.o[0m
+[6.292s] [ 45%] [32mBuilding CXX object CMakeFiles/std_msgs__MultiArrayLayout_proto.dir/proto_files/std_msgs__MultiArrayLayout.pb.cc.o[0m
+[7.378s] [ 47%] [32m[1mLinking CXX static library libgtest.a[0m
+[7.439s] [ 47%] Built target gtest
+[8.228s] [ 49%] [32m[1mLinking CXX shared library libstd_msgs__Header_proto.so[0m
+[8.360s] [ 50%] [32m[1mLinking CXX shared library libstd_msgs__MultiArrayLayout_proto.so[0m
+[8.373s] [ 50%] Built target std_msgs__Header_proto
+[8.480s] [ 50%] Built target std_msgs__MultiArrayLayout_proto
+[8.581s] [ 52%] [32m[1mLinking CXX shared library libstd_msgs__String_proto.so[0m
+[8.728s] [ 52%] Built target std_msgs__String_proto
+[8.738s] [ 54%] [32m[1mLinking CXX shared library libgeometry_msgs__PoseStamped_proto.so[0m
+[8.854s] [ 54%] Built target geometry_msgs__PoseStamped_proto
+[9.427s] [ 56%] [32m[1mLinking CXX shared library libprotolink.so[0m
+[9.508s] [ 56%] Built target protolink
+[9.532s] [ 58%] [32mBuilding CXX object CMakeFiles/unittest.dir/test/test.cpp.o[0m
+[18.861s] [ 60%] [32m[1mLinking CXX executable unittest[0m
+[19.411s] [ 60%] Built target unittest
+[57.862s] Already on 'master'
+[57.862s] Your branch is up to date with 'origin/master'.
+[57.943s] [ 62%] [34m[1mNo patch step for 'nanopb'[0m
+[57.969s] [ 64%] [34m[1mNo configure step for 'nanopb'[0m
+[57.996s] [ 66%] [34m[1mNo build step for 'nanopb'[0m
+[58.028s] [ 67%] [34m[1mNo install step for 'nanopb'[0m
+[58.058s] [ 69%] [34m[1mCompleted 'nanopb'[0m
+[58.092s] [ 69%] Built target nanopb
+[58.115s] [ 71%] [34m[1mGenerating nanopb_gen/platformio/protolink_msgs/geometry_msgs__PoseStamped.pb.c, nanopb_gen/platformio/protolink_msgs/geometry_msgs__PoseStamped.pb.h[0m
+[58.117s] [ 73%] [34m[1mGenerating nanopb_gen/STM32CubeIDE/std_msgs__String.pb.c, nanopb_gen/STM32CubeIDE/std_msgs__String.pb.h[0m
+[58.120s] [ 75%] [34m[1mGenerating nanopb_gen/platformio/protolink_msgs/std_msgs__MultiArrayLayout.pb.c, nanopb_gen/platformio/protolink_msgs/std_msgs__MultiArrayLayout.pb.h[0m
+[58.122s] [ 77%] [34m[1mGenerating nanopb_gen/platformio/protolink_msgs/std_msgs__Header.pb.c, nanopb_gen/platformio/protolink_msgs/std_msgs__Header.pb.h[0m
+[58.122s] [ 79%] [34m[1mGenerating nanopb_gen/platformio/protolink_msgs/std_msgs__String.pb.c, nanopb_gen/platformio/protolink_msgs/std_msgs__String.pb.h[0m
+[58.123s] [ 81%] [34m[1mGenerating nanopb_gen/STM32CubeIDE/std_msgs__Header.pb.c, nanopb_gen/STM32CubeIDE/std_msgs__Header.pb.h[0m
+[58.123s] [ 83%] [34m[1mGenerating nanopb_gen/STM32CubeIDE/std_msgs__MultiArrayLayout.pb.c, nanopb_gen/STM32CubeIDE/std_msgs__MultiArrayLayout.pb.h[0m
+[58.124s] [ 84%] [34m[1mGenerating nanopb_gen/STM32CubeIDE/geometry_msgs__PoseStamped.pb.c, nanopb_gen/STM32CubeIDE/geometry_msgs__PoseStamped.pb.h[0m
+[58.247s] Writing to /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/platformio/protolink_msgs/proto/geometry_msgs__PoseStamped.pb.h and /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/platformio/protolink_msgs/proto/geometry_msgs__PoseStamped.pb.c
+[58.248s] Writing to /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/platformio/protolink_msgs/proto/std_msgs__String.pb.h and /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/platformio/protolink_msgs/proto/std_msgs__String.pb.c
+[58.248s] Writing to /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/STM32CubeIDE/proto/std_msgs__String.pb.h and /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/STM32CubeIDE/proto/std_msgs__String.pb.c
+[58.250s] Writing to /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/platformio/protolink_msgs/proto/std_msgs__MultiArrayLayout.pb.h and /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/platformio/protolink_msgs/proto/std_msgs__MultiArrayLayout.pb.c
+[58.250s] Writing to /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/platformio/protolink_msgs/proto/std_msgs__Header.pb.h and /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/platformio/protolink_msgs/proto/std_msgs__Header.pb.c
+[58.254s] Writing to /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/STM32CubeIDE/proto/std_msgs__MultiArrayLayout.pb.h and /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/STM32CubeIDE/proto/std_msgs__MultiArrayLayout.pb.c
+[58.260s] Writing to /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/STM32CubeIDE/proto/geometry_msgs__PoseStamped.pb.h and /home/fuga1129/autonav_ws/build/protolink/nanopb_gen/STM32CubeIDE/proto/geometry_msgs__PoseStamped.pb.c
+[58.270s] Traceback (most recent call last):
+[58.270s]   File "/home/fuga1129/autonav_ws/build/protolink/nanopb/src/nanopb/generator/nanopb_generator.py", line 97, in <module>
+[58.270s]     (FieldD.TYPE_ENUM,    nanopb_pb2.IS_8):   ('uint8_t', 'ENUM',  4,  1),
+[58.270s] AttributeError: module 'proto.nanopb_pb2' has no attribute 'IS_8'
+[58.290s] [ 86%] Built target std_msgs__String_nanopb_stm32cubeide
+[58.291s] gmake[2]: *** [CMakeFiles/std_msgs__Header_nanopb_stm32cubeide.dir/build.make:74: nanopb_gen/STM32CubeIDE/std_msgs__Header.pb.c] エラー 1
+[58.291s] gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/std_msgs__Header_nanopb_stm32cubeide.dir/all] エラー 2
+[58.291s] gmake[1]: *** 未完了のジョブを待っています....
+[58.291s] [ 88%] Built target geometry_msgs__PoseStamped_nanopb_platformio
+[58.294s] [ 90%] Built target std_msgs__String_nanopb_platformio
+[58.298s] [ 92%] Built target std_msgs__MultiArrayLayout_nanopb_stm32cubeide
+[58.298s] [ 96%] Built target std_msgs__MultiArrayLayout_nanopb_platformio
+[58.298s] [ 96%] Built target std_msgs__Header_nanopb_platformio
+[58.300s] [ 98%] Built target geometry_msgs__PoseStamped_nanopb_stm32cubeide
+[58.302s] gmake: *** [Makefile:146: all] エラー 2
+[58.304s] Invoked command in '/home/fuga1129/autonav_ws/build/protolink' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fuga1129/autonav_ws/install/ros2_aruco:/home/fuga1129/autonav_ws/install/opencv_ros2:/home/fuga1129/autonav_ws/install/autonav:/home/fuga1129/rosxbee_ws/install/rosxbeepy:/home/fuga1129/rosxbee_ws/install/rosxbeefinal:/home/fuga1129/gui_ws/install/pyqt_test:/home/fuga1129/aurora_sim_v2/install/yolov8_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_autonav:/home/fuga1129/aurora_sim_v2/install/ros2_aruco:/home/fuga1129/aurora_sim_v2/install/opencv_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_drive:/home/fuga1129/aurora_sim_v2/install/aurora1:/home/fuga1129/moveit2_ws/install/moveit_configs_utils:/home/fuga1129/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fuga1129/autonav_ws/build/protolink -- -j12 -l12
